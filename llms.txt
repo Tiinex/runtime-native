@@ -1,0 +1,5 @@
+runtime-native
+
+First-party native Tiinex runtime — portable headless orchestration of grounded roles, tasks, capabilities, execution state and Handoff-aware workflows over Tiinex Core and Interop contracts.
+
+Grounding boundary: follow repository-local Tasks under .topics/refactor and the controlling Business Portable Tiinex Runtime frontier. Do not absorb provider-, Interop-, extension- or host-specific implementation into the runtime merely to make a local flow work.
