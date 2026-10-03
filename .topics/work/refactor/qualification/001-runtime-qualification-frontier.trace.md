@@ -37,8 +37,8 @@ Qualification protects portable behavior and fail-closed invariants without ceme
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-runtime-native-foundation.trace.md](../001-runtime-native-foundation.trace.md)
-  - Value: o-hRhdTEC2vQOhWYwhwwMDkcRa13QkPCnOqWp81F460
+  - Value: KMZyfB6WLTYSwAdUob_gU8tEp6xJ0ocEBWw7MH1S9ig
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: UAkLpCBlUO6z-Uik1XhIXvTGUfpFpuNyZFe-liWS3BM
+  - Value: mfqQjfVu8UL5b430MXLLrT0UAPNJsRAJqtHyTDzxaMY

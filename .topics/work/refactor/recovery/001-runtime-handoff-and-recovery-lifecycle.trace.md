@@ -9,27 +9,27 @@
     - [relative](../001-runtime-native-foundation.trace.md)
 - Current
   - Current Schema: [tiinex.task.v1](https://github.com/Tiinex/docs/blob/053d46ce082d4ec261b82abc44ecca403d61e240/.topics/.schemas/core/task/tiinex.task.v1.schema.md)
-  - Created At: 2026-09-09 16:51:14
+  - Created At: 2026-09-09 16:51:15
   - Authors: Anchor
-  - Why: Prevent runtime implementation from accumulating provider/host switches.
-  - Summary: Provider- and environment-neutral capability discovery and resolution.
+  - Why: Make runtime failure/recovery a grounded contract rather than environment-specific improvisation.
+  - Summary: Durable interruption, successor and Handoff behavior for runtime execution.
   - Status: ready/local
 
 ---
 
-# Runtime capability resolution
+# Runtime Handoff and recovery lifecycle
 
 ## Objective
-Define how runtime work requests capabilities without hardcoding the implementation that satisfies them.
+Ground interruption, recovery and Handoff transitions as first-class runtime behavior.
 
 ## Scope
-Capability discovery, selection, availability, refusal/degradation and explicit execution boundaries.
+Durable execution checkpoints, successor transition signals, Handoff invocation and fail-closed behavior when runtime integrity is untrustworthy.
 
 ## Dependencies
-Parent Runtime Native foundation Task; Provider and Interop contract frontiers.
+Parent Runtime Native foundation Task; Core Handoff mechanics; Business GPT runtime/conversation successor processes.
 
 ## Done Criteria
-Runtime code can request capabilities without `if GitHub`, `if OpenAI`, `if VS Code` or equivalent provider/host branching.
+Runtime interruption does not require fabricated completion or environment-specific recovery logic.
 
 ---
 
@@ -37,8 +37,8 @@ Runtime code can request capabilities without `if GitHub`, `if OpenAI`, `if VS C
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [001-runtime-native-foundation.trace.md](../001-runtime-native-foundation.trace.md)
-  - Value: o-hRhdTEC2vQOhWYwhwwMDkcRa13QkPCnOqWp81F460
+  - Value: KMZyfB6WLTYSwAdUob_gU8tEp6xJ0ocEBWw7MH1S9ig
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: gTypn_QYxoZPmCMSUTfKzjSFWNG62aV9PAl9F8F_Z3U
+  - Value: jlUGcJBOqXJ6zMjLl1Dc6Z_rLe6YR_evgNmkG7wDRnM
