@@ -1,8 +1,7 @@
-runtime-native
+# Tiinex/runtime-native LLM Bootstrap
 
-First-party native Tiinex runtime — portable headless orchestration of grounded roles, tasks, capabilities, execution state and Handoff-aware workflows over Tiinex Core and Interop contracts.
+This repository uses Tiinex. `.topics/**` and qualified source material are semantic/provenance authority; this file is only a bootstrap hint.
 
-Grounding boundary:
-- Start from `.topics/.workspaces/tiinex-runtime-native.workspace.md` and the Workspace fresh-start Reduction under `.topics/reductions/workspace/`.
-- Historical runtime/refactor Tasks are reduced; no prior Task is current. Future runtime work starts from a new explicit bounded Task with truthful Project ancestry.
-- Do not absorb provider-, Interop-, extension- or host-specific implementation into the runtime merely to make a local flow work.
+Use Tiinex Tooling to discover and qualify the Workspace entrypoint under `.topics/.workspaces`, then follow only the qualified artifacts and processes applicable to the current task.
+
+Do not use `llms.txt` or `README.md` as an artifact index, current-work declaration, or substitute for Tiinex discovery/grounding.
